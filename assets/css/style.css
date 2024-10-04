@@ -1,0 +1,139 @@
+/* Your styles here */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.65;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+img {
+  width: 42.333%;
+  margin: 2rem;
+}
+.section {
+  background-position-x: 45%;
+  background-image: url(../images/banner.jpg);
+  background-position-y: 42%;
+  background-size: 126%;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #25a2c3;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  padding-inline: 3rem;
+}
+button {
+  margin: 2rem;
+  background-color: #f04c2f;
+  padding: 1rem;
+  font-weight: bold;
+  width: 8rem;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 7%;
+  border: none;
+}
+
+.text {
+  padding-bottom: 1rem;
+  padding-inline: 2rem;
+  font-size: large;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #25a2c3;
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+  padding-inline: 3rem;
+}
+.sub {
+  margin-top: 3rem;
+  text-align: center;
+}
+#pic {
+  margin-top: 1rem;
+  margin-inline: 30%;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+.red {
+  background-color: #f04c2f;
+  padding: 2rem;
+  text-align: center;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: whitesmoke;
+  font-size: xx-large;
+  font-weight: bold;
+
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+}
+div em {
+  font-style: italic;
+  color: whitesmoke;
+}
+h4 {
+  font-size: x-large;
+  color: whitesmoke;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+cite {
+  color: whitesmoke;
+}
+article {
+  margin-block: 2.5rem;
+  margin-inline: 2rem;
+  text-align: center;
+  border: solid;
+  border-color: rgb(218, 218, 218);
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+}
+.triple {
+  margin: 0;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  background-color: #1fc1ed;
+  min-height: 340px;
+}
+.pfoot {
+  color: whitesmoke;
+  padding-bottom: 1rem;
+}
+.afoot {
+  color: whitesmoke;
+  display: block;
+}
